@@ -29,6 +29,7 @@
   <ItemGroup />
   <ItemGroup>
     <Compile Include="certificate-action-notify.ps1" />
+    <Compile Include="toggle-certificate-rollover.ps1" />
     <Compile Include="update-msol-domains.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
