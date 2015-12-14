@@ -17,3 +17,5 @@ This solution contains the following scripts:
 The solution requires at least Visual Studio 2010, and the following additional item(s) installed:
 
 - [Microsoft Azure PowerShell](http://aka.ms/webpi-azps)
+
+NOTE: When running the script 'update-msol-domains.ps1' and depending on the number of federated domains on your tenant, you may notice the script pause for some time. We assume that this is due to an API rate limit on Microsoft's infrastructure. Do not stop the script.
